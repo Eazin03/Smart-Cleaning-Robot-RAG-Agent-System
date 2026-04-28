@@ -1,0 +1,6 @@
+2026-04-28 10:12:20,850 - agent - INFO - vector_store.py:80 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人 100 问 2.txt
+2026-04-28 10:12:20,851 - agent - INFO - vector_store.py:80 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人 100 问.pdf
+2026-04-28 10:12:20,851 - agent - INFO - vector_store.py:80 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫拖一体机机器人 100 问 完整版.txt
+2026-04-28 10:12:20,852 - agent - INFO - vector_store.py:80 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\故障排除.txt
+2026-04-28 10:12:20,852 - agent - INFO - vector_store.py:80 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\维护保养.txt
+2026-04-28 10:12:20,853 - agent - INFO - vector_store.py:80 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\选购指南.txt

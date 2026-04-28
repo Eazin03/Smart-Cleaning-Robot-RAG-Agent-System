@@ -1,0 +1,84 @@
+2026-04-26 11:28:36,281 - agent - INFO - vector_store.py:99 - [加载知识库]文件处理成功: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人 100 问 2.txt
+2026-04-26 11:28:43,218 - agent - INFO - vector_store.py:99 - [加载知识库]文件处理成功: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人 100 问.pdf
+2026-04-26 11:28:46,074 - agent - INFO - vector_store.py:99 - [加载知识库]文件处理成功: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫拖一体机机器人 100 问 完整版.txt
+2026-04-26 11:28:47,738 - agent - INFO - vector_store.py:99 - [加载知识库]文件处理成功: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\故障排除.txt
+2026-04-26 11:28:49,098 - agent - INFO - vector_store.py:99 - [加载知识库]文件处理成功: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\维护保养.txt
+2026-04-26 11:28:50,473 - agent - INFO - vector_store.py:99 - [加载知识库]文件处理成功: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\选购指南.txt
+2026-04-26 11:29:38,068 - agent - INFO - vector_store.py:79 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人 100 问 2.txt
+2026-04-26 11:29:38,069 - agent - INFO - vector_store.py:79 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫地机器人 100 问.pdf
+2026-04-26 11:29:38,069 - agent - INFO - vector_store.py:79 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\扫拖一体机机器人 100 问 完整版.txt
+2026-04-26 11:29:38,069 - agent - INFO - vector_store.py:79 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\故障排除.txt
+2026-04-26 11:29:38,070 - agent - INFO - vector_store.py:79 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\维护保养.txt
+2026-04-26 11:29:38,070 - agent - INFO - vector_store.py:79 - [加载知识库]文件已处理过: C:\Users\Lenovo\Desktop\Python\PythonProject\AI大模型RAG与智能体开发_Agent项目\data\选购指南.txt
+2026-04-26 15:21:54,511 - agent - WARNING - agent_tools.py:88 - [外部数据]未找到用户1001在2025-01的使用记录
+2026-04-26 15:22:47,543 - agent - WARNING - agent_tools.py:88 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 15:23:52,980 - agent - WARNING - agent_tools.py:89 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 15:24:21,769 - agent - WARNING - agent_tools.py:89 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 15:25:38,039 - agent - WARNING - agent_tools.py:90 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 15:26:27,657 - agent - WARNING - agent_tools.py:91 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 15:27:00,791 - agent - WARNING - agent_tools.py:91 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 15:27:10,092 - agent - WARNING - agent_tools.py:91 - [外部数据]未找到用户1002在2025-01的使用记录
+2026-04-26 16:35:13,861 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-26 16:37:35,739 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-26 16:37:35,739 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 扫地机器人在我所在的地区气温下如何保养
+2026-04-26 16:37:38,961 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_location
+2026-04-26 16:37:38,962 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:37:38,962 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_location
+2026-04-26 16:37:38,963 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-26 16:37:38,963 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 上海
+2026-04-26 16:37:43,290 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_weather
+2026-04-26 16:37:43,290 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'city': '上海'}
+2026-04-26 16:37:43,297 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_weather
+2026-04-26 16:37:43,298 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-26 16:37:43,298 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 城市上海天气是晴天, 温度是25度,空气湿度是60%,南方1级
+2026-04-26 16:37:48,455 - agent - INFO - middleware.py:20 - [工具调用]工具调用: rag_summarize
+2026-04-26 16:37:48,455 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'query': '扫地机器人在25度温度和60%湿度环境下的保养方法'}
+2026-04-26 16:37:52,838 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: rag_summarize
+2026-04-26 16:37:52,838 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-26 16:37:52,839 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 在25度温度和60%湿度环境下，扫地机器人使用后应及时清空尘盒、清洗并晾干拖布（扫拖一体机），检查并清理滚刷、边刷及机身底部缠绕物和污渍；若为潮湿环境，应避免在积水区域使用，拖地时调低出水量，使用后擦干机身和拖布以防细菌滋生；日常可用干燥软布擦拭机身外壳和防撞条，保持散热通畅。
+2026-04-26 16:43:38,080 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-26 16:43:38,080 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 给我生成我的使用报告
+2026-04-26 16:43:40,508 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_id
+2026-04-26 16:43:40,508 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:43:40,509 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_id
+2026-04-26 16:43:40,509 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-26 16:43:40,509 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 1008
+2026-04-26 16:43:43,192 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_current_month
+2026-04-26 16:43:43,192 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:43:43,192 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_current_month
+2026-04-26 16:43:43,193 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-26 16:43:43,193 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 2025-09
+2026-04-26 16:43:45,938 - agent - INFO - middleware.py:20 - [工具调用]工具调用: fill_context_for_report
+2026-04-26 16:43:45,938 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:43:45,938 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: fill_context_for_report
+2026-04-26 16:43:45,939 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-26 16:43:45,939 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: fill_context_for_report已调用
+2026-04-26 16:43:45,939 - agent - ERROR - prompt_loader.py:50 - [加载生成报告提示词]解析系统提示语错误: [Errno 2] No such file or directory: 'C:\\Users\\Lenovo\\Desktop\\Python\\PythonProject\\AI大模型RAG与智能体开发_Agent项目\\prompts/report.txt'
+2026-04-26 16:45:38,810 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-26 16:45:38,810 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 给我生成我的使用报告
+2026-04-26 16:45:41,058 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_id
+2026-04-26 16:45:41,058 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:45:41,059 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_id
+2026-04-26 16:45:41,060 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-26 16:45:41,060 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 1007
+2026-04-26 16:45:43,206 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_current_month
+2026-04-26 16:45:43,206 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:45:43,206 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_current_month
+2026-04-26 16:45:43,207 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-26 16:45:43,207 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 2025-12
+2026-04-26 16:45:46,232 - agent - INFO - middleware.py:20 - [工具调用]工具调用: fill_context_for_report
+2026-04-26 16:45:46,232 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-26 16:45:46,232 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: fill_context_for_report
+2026-04-26 16:45:46,233 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-26 16:45:46,233 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: fill_context_for_report已调用
+2026-04-26 16:45:48,808 - agent - INFO - middleware.py:20 - [工具调用]工具调用: fetch_external_data
+2026-04-26 16:45:48,808 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'user_id': '1007', 'month': '2025-12'}
+2026-04-26 16:45:48,809 - agent - WARNING - agent_tools.py:90 - [外部数据]未找到用户1007在2025-12的使用记录
+2026-04-26 16:45:48,809 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: fetch_external_data
+2026-04-26 16:45:48,810 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有9条消息
+2026-04-26 16:45:48,810 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 
+2026-04-26 16:45:51,714 - agent - INFO - middleware.py:20 - [工具调用]工具调用: rag_summarize
+2026-04-26 16:45:51,714 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'query': '扫地机器人日常保养与使用建议'}
+2026-04-26 16:45:57,803 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: rag_summarize
+2026-04-26 16:45:57,804 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有11条消息
+2026-04-26 16:45:57,804 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 扫地机器人日常保养与使用建议如下：每次使用后应清空尘盒或集尘袋，清理滚刷和边刷上缠绕的毛发线头，清洁机器人底部；若为扫拖一体机，需取下拖布清洗并晾干，污水箱应及时倒掉以防细菌滋生。潮湿环境（如卫生间）应关闭拖地功能，仅用扫地模式，并确保门槛可顺利通过或设置虚拟墙避开；避免在积水区域使用，防止电机进水。使用后擦拭机身外壳与防撞条，保持散热通畅；梅雨季建议开启拖布烘干功能。为保护家具，可选用带软胶防撞条机型、开启轻柔模式、清洁避障传感器，并在家具边缘贴防撞条。

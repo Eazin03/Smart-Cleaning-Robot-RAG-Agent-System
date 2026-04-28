@@ -1,0 +1,84 @@
+2026-04-27 10:32:06,154 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-27 10:32:06,155 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 你好
+2026-04-27 10:36:11,056 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-27 10:36:11,057 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 在当前天气,扫地机器人要如何保养
+2026-04-27 10:36:15,532 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_location
+2026-04-27 10:36:15,538 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-27 10:36:15,540 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_location
+2026-04-27 10:36:15,544 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-27 10:36:15,544 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 上海
+2026-04-27 10:36:18,321 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_weather
+2026-04-27 10:36:18,322 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'city': '上海'}
+2026-04-27 10:36:18,324 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_weather
+2026-04-27 10:36:18,327 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-27 10:36:18,328 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 城市上海天气是晴天, 温度是25度,空气湿度是60%,南方1级
+2026-04-27 10:36:24,274 - agent - INFO - middleware.py:20 - [工具调用]工具调用: rag_summarize
+2026-04-27 10:36:24,275 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'query': '扫地机器人日常保养方法 湿度60% 晴天'}
+2026-04-27 10:36:29,547 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: rag_summarize
+2026-04-27 10:36:29,549 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-27 10:36:29,549 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 在湿度60%的晴天环境下，扫地机器人日常保养应包括：每次使用后清空尘盒或集尘袋，清理滚刷和边刷上缠绕的毛发线头，清洁机器人底部灰尘；若为扫拖一体机，需及时倒掉污水箱中的污水，取出拖布清洗并完全晾干，自清洁机型建议开启烘干功能；用干燥软布擦拭机身外壳和防撞条，保持散热通畅；避免在潮湿区域如卫生间使用拖地功能，以防进水。
+2026-04-27 10:37:59,980 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-27 10:37:59,982 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 在当前天气,扫地机器人要如何保养
+2026-04-27 10:38:04,310 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_location
+2026-04-27 10:38:04,311 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-27 10:38:04,312 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_location
+2026-04-27 10:38:04,316 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-27 10:38:04,317 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 深圳
+2026-04-27 10:38:07,553 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_weather
+2026-04-27 10:38:07,554 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'city': '深圳'}
+2026-04-27 10:38:07,556 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_weather
+2026-04-27 10:38:07,563 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-27 10:38:07,564 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 城市深圳天气是晴天, 温度是25度,空气湿度是60%,南方1级
+2026-04-27 10:38:12,349 - agent - INFO - middleware.py:20 - [工具调用]工具调用: rag_summarize
+2026-04-27 10:38:12,350 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'query': '扫地机器人在晴天25度60%湿度环境下的保养方法'}
+2026-04-27 10:38:17,096 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: rag_summarize
+2026-04-27 10:38:17,113 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-27 10:38:17,113 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 在晴天25度、60%湿度环境下，扫地机器人使用后应清空尘盒、清洗并晾干拖布（如为扫拖一体机）、清理滚刷和边刷上的毛发杂物、擦拭机身外壳保持散热通畅，并确保污水箱及时倒掉以避免细菌滋生。
+2026-04-27 10:38:36,642 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-27 10:38:36,643 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 在当前天气,扫地机器人要如何保养
+2026-04-27 10:38:39,388 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_location
+2026-04-27 10:38:39,389 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-27 10:38:39,390 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_location
+2026-04-27 10:38:39,426 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-27 10:38:39,427 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 北京
+2026-04-27 10:38:42,438 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_weather
+2026-04-27 10:38:42,438 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'city': '北京'}
+2026-04-27 10:38:42,440 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_weather
+2026-04-27 10:38:42,797 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-27 10:38:42,798 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 城市北京天气是晴天, 温度是25度,空气湿度是60%,南方1级
+2026-04-27 10:38:47,209 - agent - INFO - middleware.py:20 - [工具调用]工具调用: rag_summarize
+2026-04-27 10:38:47,210 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'query': '扫地机器人在晴天25度60%湿度环境下的保养方法'}
+2026-04-27 10:38:50,623 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: rag_summarize
+2026-04-27 10:38:51,654 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-27 10:38:51,654 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 在晴天25度、60%湿度环境下，扫地机器人使用后应清空尘盒、清洗并晾干拖布（如为扫拖一体机），清理滚刷和边刷上的毛发杂物，擦拭机身外壳及底部灰尘污渍，并确保拖布完全阴干以防细菌滋生。
+2026-04-27 10:39:34,097 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-27 10:39:34,099 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 我刚刚问的是什么
+2026-04-27 10:40:10,217 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有1条消息
+2026-04-27 10:40:10,218 - agent - DEBUG - middleware.py:40 - [模型执行]HumanMessage模型执行内容: 帮我生成我的使用报告
+2026-04-27 10:40:14,123 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_user_id
+2026-04-27 10:40:14,124 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-27 10:40:14,125 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_user_id
+2026-04-27 10:40:14,181 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有3条消息
+2026-04-27 10:40:14,181 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 1009
+2026-04-27 10:40:16,935 - agent - INFO - middleware.py:20 - [工具调用]工具调用: get_current_month
+2026-04-27 10:40:16,935 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-27 10:40:16,936 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: get_current_month
+2026-04-27 10:40:17,024 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有5条消息
+2026-04-27 10:40:17,025 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 2025-12
+2026-04-27 10:40:20,780 - agent - INFO - middleware.py:20 - [工具调用]工具调用: fill_context_for_report
+2026-04-27 10:40:20,781 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {}
+2026-04-27 10:40:20,782 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: fill_context_for_report
+2026-04-27 10:40:21,083 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有7条消息
+2026-04-27 10:40:21,084 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: fill_context_for_report已调用
+2026-04-27 10:40:24,749 - agent - INFO - middleware.py:20 - [工具调用]工具调用: fetch_external_data
+2026-04-27 10:40:24,749 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'user_id': '1009', 'month': '2025-12'}
+2026-04-27 10:40:24,751 - agent - WARNING - agent_tools.py:90 - [外部数据]未找到用户1009在2025-12的使用记录
+2026-04-27 10:40:24,752 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: fetch_external_data
+2026-04-27 10:40:24,765 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有9条消息
+2026-04-27 10:40:24,766 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 
+2026-04-27 10:40:29,293 - agent - INFO - middleware.py:20 - [工具调用]工具调用: rag_summarize
+2026-04-27 10:40:29,294 - agent - INFO - middleware.py:21 - [工具调用]工具调用参数: {'query': '扫地机器人日常使用建议和保养维护'}
+2026-04-27 10:40:34,793 - agent - INFO - middleware.py:24 - [工具调用]工具调用成功: rag_summarize
+2026-04-27 10:40:36,824 - agent - INFO - middleware.py:39 - [模型执行]模型执行即将执行, 带有11条消息
+2026-04-27 10:40:36,825 - agent - DEBUG - middleware.py:40 - [模型执行]ToolMessage模型执行内容: 日常使用建议：避免在卫生间等潮湿区域使用拖地功能，仅启用扫地模式以防进水；确认机器人能越过门槛或设置虚拟墙避开；调低拖地出水量防止地面过滑；开启轻柔模式并保持避障传感器清洁以减少家具碰撞。  
+保养维护：每次使用后清空尘盒、清洗拖布并晾干；清理滚刷、边刷及底部缠绕物和污渍；倒掉污水箱污水以防细菌滋生；用干软布擦拭机身外壳和防撞条；潮湿季节建议开启拖布烘干功能。

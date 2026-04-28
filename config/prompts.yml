@@ -1,0 +1,3 @@
+main_prompt_path: prompts/main_prompt.txt # 主提示词
+rag_summarize_prompt_path: prompts/rag_summarize.txt # RAG 提示词
+report_prompt_path: prompts/report_prompt.txt #这是用来生成报告的提示词
